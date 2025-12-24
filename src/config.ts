@@ -1,7 +1,7 @@
 export const config = {
   apiUrl:
     import.meta.env.VITE_OPENFGA_API_URL ||
-    "https://api.playground-us1.fga.dev",
+    "http://localhost:8082",
   apiVersion: "v1",
   storeId: import.meta.env.VITE_OPENFGA_STORE_ID || "",
   apiToken: import.meta.env.VITE_OPENFGA_API_TOKEN || "",
